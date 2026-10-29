@@ -1,0 +1,29 @@
+# Entornos y archivos generados por Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Base local y respaldos: nunca se publican
+datos/postulamente.db
+datos/postulamente.db-wal
+datos/postulamente.db-shm
+datos/backups/
+*.db-wal
+*.db-shm
+
+# Secretos y configuración privada
+.env
+.streamlit/secrets.toml
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Paquetes locales
+dist/
+build/
+*.zip
